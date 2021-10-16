@@ -5,7 +5,7 @@ namespace SeleniumWD.Section_5
 {
     [TestClass]
     [TestCategory("Doubles Operations")]
-    public class FloatingPoingOperations
+    public class FloatingPointOperations
     {
         static double number1;
         static double number2;

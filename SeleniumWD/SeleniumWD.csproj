@@ -51,7 +51,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Section 5\IntegerOperations.cs" />
-    <Compile Include="Section 5\FloatingPoingOperations.cs" />
+    <Compile Include="Section 5\FloatingPointOperations.cs" />
     <Compile Include="UnitTestProject\Test3.cs" />
     <Compile Include="UnitTestProject\Tests2.cs" />
     <Compile Include="UnitTestProject\UnitTest1.cs" />
