@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumWD", "SeleniumWD\SeleniumWD.csproj", "{0E60944C-A726-4AB6-AC2E-238A0EC7CBD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E60944C-A726-4AB6-AC2E-238A0EC7CBD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E60944C-A726-4AB6-AC2E-238A0EC7CBD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E60944C-A726-4AB6-AC2E-238A0EC7CBD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E60944C-A726-4AB6-AC2E-238A0EC7CBD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2638A1EF-E03D-4910-9D3E-43D3BD344E98}
+	EndGlobalSection
+EndGlobal
