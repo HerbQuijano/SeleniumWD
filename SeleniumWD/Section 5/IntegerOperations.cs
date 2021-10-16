@@ -4,6 +4,7 @@ using System;
 namespace SeleniumWD.Section_5
 {
     [TestClass]
+    [TestCategory("Integer Operations")]
     public class IntegerOperations
     {
         //variables to hold integers
