@@ -8,8 +8,9 @@ namespace SeleniumWD.Section_5
     public class IntegerOperations
     {
         //variables to hold integers
-        static int number1;
-        static int number2;
+        private static int number1;
+
+        private static int number2;
 
         [ClassInitialize()]
         public static void IntegerInitialize(TestContext testContext)
@@ -46,7 +47,7 @@ namespace SeleniumWD.Section_5
         [TestMethod]
         public void Test_Division()
         {
-            int quotient= number1 / number2;
+            int quotient = number1 / number2;
             Console.WriteLine(quotient);
             Assert.AreEqual(quotient, 2);
         }
@@ -54,9 +55,9 @@ namespace SeleniumWD.Section_5
         [TestMethod]
         public void Test_Modulus()
         {
-            int modulus = number1 % number2;
-            Console.WriteLine(modulus);
-            Assert.AreEqual(modulus, 0);
+            int remainder = number1 % number2;
+            Console.WriteLine(remainder);
+            Assert.AreEqual(remainder, 0);
         }
     }
 }
