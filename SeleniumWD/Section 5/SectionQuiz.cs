@@ -21,8 +21,8 @@ namespace SeleniumWD.Section_5
     [TestCategory("Temperature Converters")]
     public class SectionQuiz
     {
-        static float tempC;
-        static float tempF;
+        private static float tempC;
+        private static float tempF;
 
         [ClassInitialize]
         public static void InitializeTemps(TestContext testContext)
@@ -32,23 +32,23 @@ namespace SeleniumWD.Section_5
         }
 
         [TestMethod]
-        [Description("Convert from F to C")]
+        [Description("Convert F to C")]
         public void Test_FtoC()
         {
-            float result = (tempF * 1.8f) + 32f;
-            Console.WriteLine($"The temp in °F {tempF} is {result} in C");
-            Assert.AreEqual(result, 158f, 0.001);
-            
+            float resultC = ((tempF - 32) / 1.8f);
+            Console.WriteLine($"The temp in °F {tempF} is {resultC} in °C");
+            Assert.AreEqual(resultC, 21.11f, 0.01);
         }
 
         [TestMethod]
-        [Description("Convert from C to F")]
+        [Description("Convert C to F")]
         public void Test_CtoF()
         {
-            float result = (tempC - 32f) / 1.8f;
-            Console.WriteLine($"The temp in °C {tempC} is {result} in C");
-            Assert.AreEqual(result, 13.33f, 0.01);
+            //float resultF = (tempC - 32f) / 1.8f;
+            float resultF = ((tempC * 1.8f) + 32);
 
+            Console.WriteLine($"The temp in °C {tempC} is {resultF} in °F");
+            Assert.AreEqual(resultF, 132.8f, 0.1);
         }
     }
 }

@@ -53,6 +53,11 @@
     <Compile Include="Section 5\IntegerOperations.cs" />
     <Compile Include="Section 5\FloatingPointOperations.cs" />
     <Compile Include="Section 5\SectionQuiz.cs" />
+    <Compile Include="Section 5\Section5Exam.cs" />
+    <Compile Include="Section 7\Car.cs" />
+    <Compile Include="Section 7\CarTest.cs" />
+    <Compile Include="Section 7\SectionQuiz\Employee.cs" />
+    <Compile Include="Section 7\SectionQuiz\EmployeeTest.cs" />
     <Compile Include="UnitTestProject\Test3.cs" />
     <Compile Include="UnitTestProject\Tests2.cs" />
     <Compile Include="UnitTestProject\UnitTest1.cs" />
@@ -64,7 +69,6 @@
     <None Include="UnitTestProject\Section4.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Section 6\" />
     <Folder Include="UnitTestProject\bin\Debug\" />
     <Folder Include="UnitTestProject\obj\Debug\TempPE\" />
     <Folder Include="UnitTestProject\Properties\" />
