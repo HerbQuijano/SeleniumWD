@@ -1,5 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 
 namespace SeleniumWD.Section_7
 {
@@ -14,10 +13,36 @@ namespace SeleniumWD.Section_7
 
             //act
 
-
             //assert
             Assert.AreEqual(car1.Color, "Red");
             Assert.AreEqual(car1.NumberOfDoors, 2);
+        }
+
+        [TestMethod]
+        public void Call_Acceleration_Method()
+        {
+            //arrange
+            Car myCar = new Car("Red", 2, true);
+
+            //ask
+            myCar.Accelerate();
+        }
+
+        [TestMethod]
+        public void Call_FamilyCar_Method()
+        {
+            Car myCar = new Car("Red", 4, true);
+
+            bool carType = myCar.FamilyCar();
+
+            if (carType == true)
+            {
+                Assert.IsTrue(carType == true);
+            }
+            else
+            {
+                Assert.Fail();
+            }
         }
     }
 }

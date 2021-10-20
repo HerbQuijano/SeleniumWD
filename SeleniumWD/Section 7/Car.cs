@@ -33,7 +33,14 @@ namespace SeleniumWD.Section_7
 
         public bool IsConvertable
         {
-            get; set;
+            get
+            {
+                return isConvertable;
+            }
+            set
+            {
+                this.isConvertable = value;
+            }
         }
 
         public int NumberOfDoors
@@ -72,6 +79,7 @@ namespace SeleniumWD.Section_7
             else
             {
                 return false;
+                Console.WriteLine("Not a family car");
             }
         }
     }

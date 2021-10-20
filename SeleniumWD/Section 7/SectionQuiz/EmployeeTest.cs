@@ -7,7 +7,7 @@ namespace SeleniumWD.Section_7.SectionQuiz
     [TestCategory("Employee Class")]
     public class EmployeeTest
     {
-        Employee emp = new Employee("Laureano", "Brizuela", "02/02/82", "Portero", "Administracion", 1, 2500.00);
+        private Employee emp = new Employee("Laureano", "Brizuela", "02/02/82", "Portero", "Administracion", 1, 2500.00);
 
         [TestMethod]
         public void TestEmployee1()

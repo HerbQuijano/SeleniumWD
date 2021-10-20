@@ -14,14 +14,15 @@ namespace UnitTestProject
             var a = 1;
             var b = 2;
             Assert.AreEqual(3, a + b);
-            
         }
+
         [TestMethod]
         public void TestMethod2()
         {
             var a = 1;
             Assert.IsTrue(a == 1);
         }
+
         [TestMethod]
         [ExpectedException(typeof(AssertFailedException))]
         public void TestMethod3()

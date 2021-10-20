@@ -54,8 +54,11 @@
     <Compile Include="Section 5\FloatingPointOperations.cs" />
     <Compile Include="Section 5\SectionQuiz.cs" />
     <Compile Include="Section 5\Section5Exam.cs" />
+    <Compile Include="Section 5\StringClassTest.cs" />
     <Compile Include="Section 7\Car.cs" />
     <Compile Include="Section 7\CarTest.cs" />
+    <Compile Include="Section 7\Section Exam\Trip.cs" />
+    <Compile Include="Section 7\Section Exam\TripTest.cs" />
     <Compile Include="Section 7\SectionQuiz\Employee.cs" />
     <Compile Include="Section 7\SectionQuiz\EmployeeTest.cs" />
     <Compile Include="UnitTestProject\Test3.cs" />

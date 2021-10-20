@@ -16,13 +16,15 @@ namespace UnitTestProject
         {
             var a = 1;
             var b = 1;
-            Assert.AreEqual(2, a + b);       
+            Assert.AreEqual(2, a + b);
         }
+
         [TestMethod]
         public void TestMethod2()
         {
             Assert.Fail("This test will always fail");
         }
+
         [TestMethod]
         [ExpectedException(typeof(AssertFailedException))]
         public void TestMethod3()
