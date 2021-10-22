@@ -78,8 +78,9 @@ namespace SeleniumWD.Section_7
             }
             else
             {
-                return false;
                 Console.WriteLine("Not a family car");
+                return false;
+               
             }
         }
     }

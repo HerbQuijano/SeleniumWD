@@ -26,5 +26,14 @@ namespace SeleniumWD.Section_7.Section_Exam
             Console.WriteLine($"Costed ${substr} per mile");
             Assert.AreEqual(7.77, trip2.Calculate_Cost_Per_Mile(), 0.1);
         }
+
+        [TestMethod]
+        public void Test_ToString()
+        {
+            Trip trip3 = new Trip("Mahahual", 400.00f, 1200.00d, 10);
+            Console.WriteLine(trip3.ToString());
+            Assert.AreEqual("The trip was to Mahahual with a distance of 400 miles and a total cost of $1200 used 10 gallons", trip3.ToString());
+        }
+
     }
 }

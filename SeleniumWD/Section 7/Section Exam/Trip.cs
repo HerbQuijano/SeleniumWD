@@ -23,6 +23,14 @@ namespace SeleniumWD.Section_7.Section_Exam
             NumberOfGallons = numberOfGallons;
         }
 
+        public Trip(string destination, float traveledDistance, double totalFuelCost, int numberOfGallons)
+        {
+            Destination = destination;
+            TraveledDistance = traveledDistance;
+            TotalFuelCost = totalFuelCost;
+            NumberOfGallons = numberOfGallons;
+        }
+
         public string Destination
 
         {
@@ -81,6 +89,11 @@ namespace SeleniumWD.Section_7.Section_Exam
         {
             double costPerGallon = TotalFuelCost / TraveledDistance;
             return costPerGallon;
+        }
+
+        public override string ToString()
+        {
+            return $"The trip was to {Destination} with a distance of {TraveledDistance} miles and a total cost of ${TotalFuelCost} used {NumberOfGallons} gallons";
         }
 
     }

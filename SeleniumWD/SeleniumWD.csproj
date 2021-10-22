@@ -49,6 +49,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MidTerm Exam\Receipt.cs" />
+    <Compile Include="MidTerm Exam\ReceiptTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Section 5\IntegerOperations.cs" />
     <Compile Include="Section 5\FloatingPointOperations.cs" />
