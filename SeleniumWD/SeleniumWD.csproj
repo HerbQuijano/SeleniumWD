@@ -63,6 +63,10 @@
     <Compile Include="Section 7\Section Exam\TripTest.cs" />
     <Compile Include="Section 7\SectionQuiz\Employee.cs" />
     <Compile Include="Section 7\SectionQuiz\EmployeeTest.cs" />
+    <Compile Include="Section 8\BreakAndContinue.cs" />
+    <Compile Include="Section 8\DoWhile.cs" />
+    <Compile Include="Section 8\SwitchStatements.cs" />
+    <Compile Include="Section 8\WhileLoops.cs" />
     <Compile Include="UnitTestProject\Test3.cs" />
     <Compile Include="UnitTestProject\Tests2.cs" />
     <Compile Include="UnitTestProject\UnitTest1.cs" />

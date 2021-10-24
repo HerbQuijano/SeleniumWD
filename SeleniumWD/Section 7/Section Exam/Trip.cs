@@ -95,6 +95,5 @@ namespace SeleniumWD.Section_7.Section_Exam
         {
             return $"The trip was to {Destination} with a distance of {TraveledDistance} miles and a total cost of ${TotalFuelCost} used {NumberOfGallons} gallons";
         }
-
     }
 }

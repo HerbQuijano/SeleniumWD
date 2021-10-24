@@ -15,6 +15,7 @@ namespace SeleniumWD.MidTerm_Exam
         }
 
         [TestMethod]
+        [ExpectedException(typeof(AssertFailedException))]
         public void Calculate_Total_Invalid()
         {
             Receipt receipt = new Receipt(1, 1, 3, 6, "02/02/82", "Flavio", "Marito", "223 Risk Drive", "8643729957", "Shovel and gloves", 45.00d);

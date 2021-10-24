@@ -12,7 +12,7 @@ namespace SeleniumWD.Section_7.Section_Exam
         {
             Trip trip1 = new Trip("Cozumel", 80.00f, 12);
             Console.WriteLine($"Trip to: {trip1.Destination}");
-            string substr = trip1.Calculate_MPG().ToString().Substring(0,3);
+            string substr = trip1.Calculate_MPG().ToString().Substring(0, 3);
             Console.WriteLine($"Traveled {substr} miles per gallon");
             Assert.AreEqual(6.66, trip1.Calculate_MPG(), 0.1);
         }
@@ -34,6 +34,5 @@ namespace SeleniumWD.Section_7.Section_Exam
             Console.WriteLine(trip3.ToString());
             Assert.AreEqual("The trip was to Mahahual with a distance of 400 miles and a total cost of $1200 used 10 gallons", trip3.ToString());
         }
-
     }
 }
