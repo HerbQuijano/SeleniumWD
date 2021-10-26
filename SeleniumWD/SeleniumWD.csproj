@@ -67,6 +67,13 @@
     <Compile Include="Section 8\DoWhile.cs" />
     <Compile Include="Section 8\SwitchStatements.cs" />
     <Compile Include="Section 8\WhileLoops.cs" />
+    <Compile Include="Section 9\MathHelper.cs" />
+    <Compile Include="Section 9\MethodTest.cs" />
+    <Compile Include="Section 9\MyEmployee.cs" />
+    <Compile Include="Section 9\Employee.cs" />
+    <Compile Include="Section 9\MyEmployeeTest.cs" />
+    <Compile Include="Section 9\Section 9 Quiz\MathFunctions.cs" />
+    <Compile Include="Section 9\Section 9 Quiz\MathTest.cs" />
     <Compile Include="UnitTestProject\Test3.cs" />
     <Compile Include="UnitTestProject\Tests2.cs" />
     <Compile Include="UnitTestProject\UnitTest1.cs" />
@@ -78,6 +85,7 @@
     <None Include="UnitTestProject\Section4.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Section 10\" />
     <Folder Include="UnitTestProject\bin\Debug\" />
     <Folder Include="UnitTestProject\obj\Debug\TempPE\" />
     <Folder Include="UnitTestProject\Properties\" />

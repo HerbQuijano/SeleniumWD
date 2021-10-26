@@ -70,6 +70,13 @@ namespace SeleniumWD.Section_7
             Console.WriteLine("Accelerating");
         }
 
+
+        //just to test Method Overloading
+        public string FamilyCar(int id)
+        {
+            return id.ToString();
+        }
+
         public bool FamilyCar()
         {
             if (NumberOfDoors >= 4)
