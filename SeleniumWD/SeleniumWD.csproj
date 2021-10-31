@@ -52,6 +52,8 @@
     <Compile Include="MidTerm Exam\Receipt.cs" />
     <Compile Include="MidTerm Exam\ReceiptTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Section 10\Exam Section 10\DataList.cs" />
+    <Compile Include="Section 10\Exam Section 10\DataListTest.cs" />
     <Compile Include="Section 5\IntegerOperations.cs" />
     <Compile Include="Section 5\FloatingPointOperations.cs" />
     <Compile Include="Section 5\SectionQuiz.cs" />
@@ -85,7 +87,6 @@
     <None Include="UnitTestProject\Section4.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Section 10\" />
     <Folder Include="UnitTestProject\bin\Debug\" />
     <Folder Include="UnitTestProject\obj\Debug\TempPE\" />
     <Folder Include="UnitTestProject\Properties\" />
