@@ -54,6 +54,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Section 10\Exam Section 10\DataList.cs" />
     <Compile Include="Section 10\Exam Section 10\DataListTest.cs" />
+    <Compile Include="Section 10\InheritanceTest.cs" />
+    <Compile Include="Section 10\Pen.cs" />
+    <Compile Include="Section 10\Person.cs" />
+    <Compile Include="Section 10\Student.cs" />
+    <Compile Include="Section 10\UnitTest1.cs" />
+    <Compile Include="Section 11\Quiz11\Lecture.cs" />
+    <Compile Include="Section 11\Quiz11\Musical.cs" />
+    <Compile Include="Section 11\Quiz11\Play.cs" />
+    <Compile Include="Section 11\Quiz11\Ticket.cs" />
+    <Compile Include="Section 11\Quiz11\TicketTest.cs" />
     <Compile Include="Section 5\IntegerOperations.cs" />
     <Compile Include="Section 5\FloatingPointOperations.cs" />
     <Compile Include="Section 5\SectionQuiz.cs" />
