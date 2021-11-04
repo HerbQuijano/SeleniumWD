@@ -59,6 +59,10 @@
     <Compile Include="Section 10\Person.cs" />
     <Compile Include="Section 10\Student.cs" />
     <Compile Include="Section 10\UnitTest1.cs" />
+    <Compile Include="Section 11\Exam\AutoLoan.cs" />
+    <Compile Include="Section 11\Exam\HomeLoan.cs" />
+    <Compile Include="Section 11\Exam\Loan.cs" />
+    <Compile Include="Section 11\Exam\UnitTest1.cs" />
     <Compile Include="Section 11\Quiz11\Lecture.cs" />
     <Compile Include="Section 11\Quiz11\Musical.cs" />
     <Compile Include="Section 11\Quiz11\Play.cs" />

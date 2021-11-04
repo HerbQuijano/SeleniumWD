@@ -19,6 +19,8 @@ namespace SeleniumWD.Section_11.Quiz11
 
             Console.WriteLine(play01);
             Assert.AreEqual(true, play01.IsValid);
+
+
             
             
             //Console.WriteLine(lecture1);

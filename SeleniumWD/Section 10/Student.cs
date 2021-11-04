@@ -1,13 +1,13 @@
 ﻿using System;
 
-class Student : Person
+internal class Student : Person
 {
     private string major;
     private string studentId;
 
     public Student(string id, string fname, string lname, int anAge, string maj, string sId,
         DateTime dob)
-        :base(id, lname, fname, anAge, dob)
+        : base(id, lname, fname, anAge, dob)
     {
         major = maj;
         studentId = sId;
