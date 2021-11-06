@@ -47,6 +47,10 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="WebDriver, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.3.141.0\lib\net45\WebDriver.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MidTerm Exam\Receipt.cs" />
@@ -55,8 +59,10 @@
     <Compile Include="Section 10\Exam Section 10\DataList.cs" />
     <Compile Include="Section 10\Exam Section 10\DataListTest.cs" />
     <Compile Include="Section 10\InheritanceTest.cs" />
+    <Compile Include="Section 10\ITraveler.cs" />
     <Compile Include="Section 10\Pen.cs" />
     <Compile Include="Section 10\Person.cs" />
+    <Compile Include="Section 10\Professor.cs" />
     <Compile Include="Section 10\Student.cs" />
     <Compile Include="Section 10\UnitTest1.cs" />
     <Compile Include="Section 11\Exam\AutoLoan.cs" />
@@ -68,6 +74,9 @@
     <Compile Include="Section 11\Quiz11\Play.cs" />
     <Compile Include="Section 11\Quiz11\Ticket.cs" />
     <Compile Include="Section 11\Quiz11\TicketTest.cs" />
+    <Compile Include="Section 12\InterfaceSample.cs" />
+    <Compile Include="Section 12\ITransactions.cs" />
+    <Compile Include="Section 12\Transaction.cs" />
     <Compile Include="Section 5\IntegerOperations.cs" />
     <Compile Include="Section 5\FloatingPointOperations.cs" />
     <Compile Include="Section 5\SectionQuiz.cs" />

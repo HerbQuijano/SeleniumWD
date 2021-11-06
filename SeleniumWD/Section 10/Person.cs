@@ -1,6 +1,8 @@
 ﻿using System;
 
 //abstract class person
+namespace Section_10
+{ 
 class Person
 {
 
@@ -40,4 +42,5 @@ class Person
     {
         return "A person gets 8 hours of sleep";
     }
+}
 }
