@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Section_10;
 
 [TestClass]
 public class InheritanceTest
