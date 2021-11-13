@@ -49,6 +49,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section15", "Section15", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Final Project - Housing", "HousingTest\Final Project - Housing.csproj", "{7ACACF59-FD56-4A28-81AF-38BBF2E699CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Endofcouse", "Endofcouse\Endofcouse.csproj", "{CF8710A9-E33D-46E4-85AE-896A08231F30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +105,10 @@ Global
 		{7ACACF59-FD56-4A28-81AF-38BBF2E699CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7ACACF59-FD56-4A28-81AF-38BBF2E699CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7ACACF59-FD56-4A28-81AF-38BBF2E699CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF8710A9-E33D-46E4-85AE-896A08231F30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8710A9-E33D-46E4-85AE-896A08231F30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF8710A9-E33D-46E4-85AE-896A08231F30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF8710A9-E33D-46E4-85AE-896A08231F30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -120,6 +126,7 @@ Global
 		{834E0273-80FF-40E5-81B1-5183E72212DB} = {22388DCC-DAA9-4489-A79C-B4BFF0CF50E0}
 		{992C3D8D-FAA2-4351-8499-DA38129EBD83} = {22388DCC-DAA9-4489-A79C-B4BFF0CF50E0}
 		{7ACACF59-FD56-4A28-81AF-38BBF2E699CF} = {AA338D2F-4291-4BBF-B3EB-CF799D39FE27}
+		{CF8710A9-E33D-46E4-85AE-896A08231F30} = {AA338D2F-4291-4BBF-B3EB-CF799D39FE27}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2638A1EF-E03D-4910-9D3E-43D3BD344E98}
